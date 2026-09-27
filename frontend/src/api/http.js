@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const AUTH_KEY = 'vari-mitra-auth';
-const baseURL = '';
+const baseURL = '/api';
 
 export const http = axios.create({
   baseURL,
