@@ -9,7 +9,7 @@ import anudip.entity.Admin;
 import anudip.service.AdminService;
 
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class AdminController {
 
     @Autowired

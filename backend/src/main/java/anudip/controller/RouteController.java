@@ -9,7 +9,7 @@ import anudip.entity.Route;
 import anudip.service.RouteService;
 
 @RestController
-@RequestMapping("/routes")
+@RequestMapping("/api/routes")
 public class RouteController {
 
     @Autowired

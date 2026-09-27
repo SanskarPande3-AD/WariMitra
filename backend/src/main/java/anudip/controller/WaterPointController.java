@@ -9,7 +9,7 @@ import anudip.entity.WaterPoint;
 import anudip.service.WaterPointService;
 
 @RestController
-@RequestMapping("/waterpoints")
+@RequestMapping("/api/waterpoints")
 public class WaterPointController {
 
     @Autowired
