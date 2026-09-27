@@ -7,10 +7,13 @@ spring:
     username: ${SPRING_DATASOURCE_USERNAME:postgres}
     password: ${SPRING_DATASOURCE_PASSWORD:Aditya@1453}
 
-  jpa:
+jpa:
+  hibernate:
+    ddl-auto: update
+  properties:
     hibernate:
-      ddl-auto: update
-    show-sql: true
+      default_schema: public
+  show-sql: true
 
 server:
   port: ${PORT:8080}
